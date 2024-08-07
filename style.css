@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(36, 35, 35);
+    height: 80px;
+    align-items: center;
+    width: 100%;
+}
+.button-all{
+    display: flex;
+    min-width: 400px;
+    background-color: rgb(241, 233, 233);
+    height: 40px;
+    border-radius: 5px;
+}
+.input-box{
+    height: 40px;
+    width: 250px;
+    re
+}
+.search-icon{
+    width: 40px;
+
+}
+.link-bar{
+    background-color: rgb(61, 58, 58);
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.link-bar a{
+    text-decoration: none;
+    color: white;
+}
+.icon-bar{
+    background-color: orange;
+    border-radius: 0 5px 5px 0;
+}
+.language-bar{
+
+}
+.hello-bar a{
+    text-decoration: none;
+    color: white;
+}
+.return-bar a{
+    text-decoration: none;
+    color: white;
+}
+.banner-image{
+    width: 100%;
+}
+.offer-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.back-tap{
+    height: 50px;
+    background-color: rgb(88, 86, 86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.back-tap a{
+    text-decoration: none;
+    color: white;
+
+}
+.back-tap a:hover{
+    background-color: rgb(179, 172, 172);
+}
+.back-tap:hover{
+    background-color: rgb(179, 172, 172);
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 50px;
+
+}
+.footer-container a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+}
